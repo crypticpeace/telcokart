@@ -200,6 +200,9 @@ export default function Home() {
 
       <div className="min-h-screen bg-gray-200 py-12">
         <div className="max-w-6xl mx-auto px-4 space-y-8">
+        <div className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-8 leading-tight items-center text-center">
+              Ads that drive traffic
+            </div>
           {adTypes.map((ad) => (
             <div key={ad.id} className="bg-white rounded-3xl shadow-lg p-8">
               <div className="grid lg:grid-cols-2 gap-12 items-center mb-8">

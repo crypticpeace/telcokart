@@ -50,9 +50,7 @@ export default function Home() {
             </p>
 
             {/* Bottom Section */}
-            <div className="text-gray-800 text-xl font-medium">
-              Ads that drive traffic
-            </div>
+            
           </div>
         </main>
       </div>
